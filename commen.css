@@ -1,0 +1,44 @@
+/* Use commen css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* common class for css margin left right 5% equil  */
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* item arrengment left in line  */
+.arrange-left {
+  float: left;
+}
+
+/* class for width 25%  */
+.wid-25 {
+  width: 25%;
+}
+
+/* class for width 50%  */
+.wid-50 {
+  width: 50%;
+}
+
+/* class for button style */
+.common-btn {
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  background-color: #fff;
+  min-width: 50px;
+  text-align: center;
+  color: #d10c97;
+}
+
+/* class for button in span style */
+.common-btn span {
+  font-size: 16px;
+  font-weight: 800;
+}
