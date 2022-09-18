@@ -1,8 +1,13 @@
 /* Use commen css */
 
+/* font family  
+   font-family: 'Poppins', sans-serif;
+ */
+
+/* font use all body poppins */
 body {
   margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 /* common class for css margin left right 5% equil  */
@@ -26,19 +31,35 @@ body {
   width: 50%;
 }
 
+/* class for width 75%  */
+.wid-75 {
+  width: 75%;
+}
+/* clear both use in start nest row  */
+.next-row {
+  clear: both;
+}
+
 /* class for button style */
 .common-btn {
-  height: 40px;
+  height: 35px;
   border: 1px solid #ddd;
   border-radius: 0;
   background-color: #fff;
   min-width: 50px;
   text-align: center;
   color: #d10c97;
+  margin-right: 10px;
 }
 
 /* class for button in span style */
 .common-btn span {
   font-size: 16px;
   font-weight: 800;
+}
+
+/* this css use fix some padding of i(icons)  */
+.common-btn span i {
+  padding-right: 5px;
+  padding-left: 5px;
 }

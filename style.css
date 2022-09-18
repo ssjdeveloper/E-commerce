@@ -2,18 +2,20 @@
 
 /* logo design hading */
 .logo h1 {
-  font-size: 40px;
+  font-size: 36px;
+  font-weight: 600;
   margin: 0;
 }
 
 /* header design */
 .header {
   margin-top: 25px;
+  min-height: 60px;
 }
 
 /* logo dising first span */
 .logo h1 span:first-of-type {
-  padding: 5px 10px;
+  padding: 0px 15px;
   border: 1px solid #ddd;
   margin-right: 5px;
   color: #d19c97;
@@ -30,13 +32,18 @@
   border-right: none;
 }
 
+/* this css use border none */
+.search-product input:focus {
+  outline: none;
+}
+
 /* search-product button design  */
 .search-product button {
   height: 40px;
   border-radius: 0;
   border: 1px solid #ddd;
-  margin-left: 3px;
-  font-size: 18px;
+  margin-left: -6px;
+  font-size: 19px;
   color: #d19c97;
   background-color: #fff;
 }
@@ -44,4 +51,161 @@
 /* selected product of right align */
 .selected-product {
   text-align: right;
+}
+/* above this css all header part complete */
+
+/* this line below categories list css use  */
+
+/* this css use in banner backgraoung color  */
+.full-banner-wrapper {
+  border-top: 1px solid #ddd;
+}
+
+/* this css use in style list header  */
+.list-header {
+  height: 65px;
+  background-color: #d19c97;
+}
+
+/* this css use in style inside header h4 tag  */
+.list-header h4 {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 500;
+}
+
+/* this css use in style inside header span tag  */
+.list-header span {
+  float: right;
+  padding: 28px;
+}
+
+/* this css use in all outside border ul tag  */
+.categorory-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+}
+
+/* this css use in style all li tag with border */
+.categorory-list ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 40px;
+}
+
+/* this css use in style all a tag color and decoration  */
+.categorory-list ul li a {
+  color: #333;
+  text-decoration: none;
+}
+/* this line above all category style  */
+
+/* this line below shop menu css */
+.shop-menu {
+  display: flex;
+}
+
+/* left menu list style in css */
+.left-menu-list {
+  width: 70%;
+}
+
+/* right menu list style in css */
+.right-menu-list {
+  width: 30%;
+  direction: rtl;
+}
+
+/* this css apply both ul tag  */
+.shop-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* this css apply .shop-menu ul li tag style  */
+.shop-menu ul li {
+  min-width: 75px;
+  padding: 20px;
+}
+
+/* this css apply .shop-menu ul li a tag style  */
+.shop-menu ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* all a tag style hover color  */
+.shop-menu ul li a:hover {
+  color: #d19c97;
+}
+
+/* this css apply inside shop dropdown menu  */
+.shop-menu ul.dropdown {
+  display: none;
+  border: 1px solid #ddd;
+  position: absolute;
+  box-shadow: #ddd 1px 1px 4px;
+}
+
+/* this css use in hover effect in product details  */
+.dropdown-head:hover ul.dropdown {
+  display: block;
+}
+
+
+/* this line below start banner design  */
+
+/* this css use banner style  */
+.banner {
+  position: relative;
+  height: 400;
+  float: left;
+  width: 100%;
+}
+
+/* this css use in banner image style  */
+.banner img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* this css use in banner text style  */
+.banner-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.277);
+}
+
+/* this css use in banner text style h4 tag */
+.banner-text h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* this css use in banner text h3 tag style  */
+.banner-text h3 {
+  margin: 0;
+  font-size: 50px;
+}
+
+/* this css use in banner text in show now text a tag style  */
+.banner-text a.show-now {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
 }

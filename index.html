@@ -4,12 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title of website -->
     <title>E-Commerce Project</title>
+
+    <!-- style.css links -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- commen.css links  -->
     <link rel="stylesheet" href="commen.css" />
+
+    <!-- online font poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- online icon use  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    
+    <!-- thid line below header part in html  -->
     <div class="wrapper">
       <!-- header creation divid in 3 part -->
       <div class="header">
@@ -23,18 +45,88 @@
           <!-- this is a input box for searching product  -->
           <input type="text" placeholder="Search for Products" />
 
-          <!-- this is a Search button  -->
-          <button>Search</button>
+          <!-- this is a Search button with icon  -->
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
 
         <!-- selected-product creation third part -->
         <div class="selected-product arrange-left wid-25">
-          <button class="common-btn"><span>0</span></button>
-          <button class="common-btn"><span>0</span></button>
-        </div>
+          <!-- this button for show cart value with icon -->
+          <button class="common-btn">
+            <span>
+              <i class="fas fa-cart-arrow-down"></i>
+              0</span
+            >
+          </button>
 
+          <!-- this button for show heart like value with icon -->
+          <button class="common-btn">
+            <span>
+              <i class="fas fa-heart"></i>
+              0</span
+            >
+          </button>
+        </div>
       </div>
-      
+    </div>
+    <!-- above this line header part is complete -->
+
+    <!-- this line below start Categories list in html  -->
+    <div class="full-banner-wrapper">
+      <div class="wrapper next-row">
+        <div class="banner-area categorory-list wid-25 arrange-left">
+          <div class="list-header">
+            <h4>Categories</h4>
+            <span>
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </div>
+          <ul>
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">T-shirts</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">SmartPhons</a></li>
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Kitchens</a></li>
+            <li><a href="#">Toys</a></li>
+            <li><a href="#">Electronics</a></li>
+          </ul>
+        </div>
+        <div class="wid-75 arrange-left">
+          <div class="shop-menu">
+            <ul class="left-menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li class="dropdown-head">
+                <a href="#"
+                  >Product Details
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown">
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Chechout</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contect</a></li>
+            </ul>
+            <ul class="right-menu-list">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+          <div class="banner">
+            <img src="banner image.jpg" alt="banner">
+            <div class="banner-text">
+              <h4>10% off Your First Order</h4>
+              <h3>Fashionable dress</h3>
+              <a class="show-now">Show Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
