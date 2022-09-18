@@ -156,7 +156,6 @@
   display: block;
 }
 
-
 /* this line below start banner design  */
 
 /* this css use banner style  */
@@ -165,10 +164,11 @@
   height: 400;
   float: left;
   width: 100%;
+  margin-left: 15px;
 }
 
 /* this css use in banner image style  */
-.banner img{
+.banner img {
   width: 100%;
   height: 400px;
   object-fit: cover;
@@ -208,4 +208,58 @@
   background-color: #fff;
   color: #000;
   padding: 10px 15px;
+}
+/* this line above banner is complete */
+
+/* this line below start Features area  */
+.features-point {
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+
+/* this css use text wrap  */
+.features-point .icon-text-wrap {
+  padding: 30px;
+  display: flex;
+}
+
+/* this css use icons color and font  */
+.icon-text-wrap i {
+  font-size: 30px;
+  color: #d19c97;
+}
+
+/* this css use style span  */
+.icon-text-wrap span {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+/* this css use in style category item  */
+.category-item {
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* this css use in style product count  */
+.category-item .product-count {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+/* this css use in style cat images  */
+.category-item .category-image img {
+  width: 100%;
+}
+
+/* this css use in style Name dreassses  */
+.category-image .category-type h5 {
+  margin-bottom: 0;
+  font-size: 25px;
 }
