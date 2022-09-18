@@ -313,4 +313,64 @@
 }
 /* this line above complete 0 offer bannner style  */
 
+/* this line below start Making Carts */
 
+.cart {
+  border: 1px solid #ddd;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+/* this line css cart image style  */
+.cart img {
+  width: 100%;
+}
+
+/* this line css cart details style  */
+.cart .cart-details {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+
+/* this line css cart name style  */
+.cart .cart-details .name-head {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* this line css cart price style  */
+.cart .cart-details .cart-price {
+  display: flex;
+  justify-content: center;
+}
+
+/* this line css cart price h6 tag style  */
+.cart .cart-price h6 {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+  font-weight: 500;
+}
+
+/* this line css cart last price style  */
+.cart .cart-price h6.last-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* this line css cart footer style  */
+.cart .cart-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* this line css cart footer a tag style  */
+.cart .cart-footer a {
+  color: #d19c97;
+  font-size: 14px;
+}
+/* this line above cart complete */
