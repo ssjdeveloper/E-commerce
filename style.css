@@ -263,3 +263,54 @@
   margin-bottom: 0;
   font-size: 25px;
 }
+
+/* this line below start offer banner  */
+.offer-bannner {
+  background-color: #edf1ff !important;
+  margin-bottom: 50px;
+  position: relative;
+  margin-right: 25px;
+}
+
+/* this css use offer banner image style  */
+.offer-bannner img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 90%;
+  bottom: 0;
+  z-index: 100;
+  float: left;
+}
+
+/* this css use offer banner text style  */
+.offer-bannner .offer-text {
+  text-align: right;
+  padding: 40px;
+}
+
+/* this css use offer banner text inside h5 tag style  */
+.offer-bannner .offer-text h5 {
+  color: #d19c97;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* this css use offer banner test inside h3 tag style  */
+.offer-bannner .offer-text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* this css use offer banner button style  */
+.offer-bannner .offer-text button {
+  padding: 12px 35px;
+  color: #d19c97;
+  border: 1px solid #d19c97;
+  background-color: transparent;
+}
+/* this line above complete 0 offer bannner style  */
+
+
