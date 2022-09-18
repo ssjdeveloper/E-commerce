@@ -73,3 +73,20 @@ body {
 .flip-img {
   transform: scaleX(-1);
 }
+
+/* this css use margin right 5% */
+.margin-right-5 {
+  margin-right: 5%;
+}
+
+/* this line below  start meadia queary use responsive */
+/* @media only screen and (max-width:992px){
+  .wid-25, .wid-50, .wid-75{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .arange-left{
+    float: none;
+  }
+} */

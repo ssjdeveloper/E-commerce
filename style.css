@@ -374,3 +374,162 @@
   font-size: 14px;
 }
 /* this line above cart complete */
+
+/* this line start stay updated email  */
+.stay-updated {
+  margin-bottom: 100px;
+  background-color: #edf1ff;
+  margin-left: -5.5%;
+  margin-right: -5.5%;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 32%;
+  padding-right: 32%;
+  padding-bottom: 80px;
+}
+
+/* this css use stay updated text  */
+.stay-updated .updated-text {
+  line-height: 2;
+  color: #666;
+}
+
+/* this css use stay updated input  */
+.stay-updated .updated-inputes {
+  display: flex;
+}
+
+/* this css use to stay updated input text  */
+.stay-updated .email-input {
+  flex: 100%;
+  border-radius: 0%;
+  height: 47px;
+  border: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+/* this css use stay updated email button  */
+.stay-updated .email-btn {
+  border-radius: 0;
+  border: 1px solid #d19c97;
+  color: #000;
+  background-color: #d19c97;
+  padding: 13px 30px;
+  font-size: 16px;
+}
+/* this line above complete stay updated email  */
+
+/* this line start footer style  */
+.footer {
+  background-color: #edf1ff;
+  margin-left: -5.5%;
+  margin-right: -5.5%;
+  padding-left: 5.5%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+/* this line css use footer decription */
+.footer .footer-desc {
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* this line css use footer contect list  */
+.footer .contect-list {
+  padding: 0;
+  list-style: none;
+  line-height: 2.5;
+}
+
+/* this iine css use footer contect list icons */
+.footer .contect-list .icon {
+  color: #d19c97;
+  width: 25px;
+}
+
+/* this css use footer in quick list inside ul tag  */
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+/* this css use footer in quick list inside ul in a tag  */
+.quick-links ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* this css use footer in quick list inside ul a in i tag  */
+.quick-links ul a i {
+  padding-right: 5px;
+}
+
+/* this css use footer input name email  */
+.footer .footer-input {
+  border: none;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+/* this css use footer button subcribe  */
+.footer .footer-button {
+  border: 0;
+  background-color: #d19c97;
+  padding: 15px;
+  width: 85%;
+  font-size: 18px;
+}
+
+/* this line start vender list css  */
+.vender-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100x;
+}
+
+/* this line css vender list image  */
+.vender-list img {
+  border: 1px solid #ddd;
+}
+
+/* this line start copyright style and payment */
+.copy-right {
+  background-color: #edf1ff;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* this line below  start meadia queary use responsive */
+/* @media only screen and (max-width:992px){
+ .search-product{
+  display: flex;
+ }
+ .search-product input {
+   flex: 100%;
+}
+.selected-product{
+  text-align: left;
+}
+.shop-menu ul {
+  display: block;
+ 
+}
+.shop-menu ul li {
+  padding: 10px;
+}
+
+
+} */
