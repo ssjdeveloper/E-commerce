@@ -702,17 +702,19 @@
   text-align: left;
 }
 
-/* cart summary stle this line start  */
+/* cart summary style this line start  */
 .cart-summary-wraper {
   margin-top: 50px;
   margin-left: 20px;
 }
 
+/* this css use coupan-input  */
 .cart-summary-wraper .coupon-inputs {
   display: flex;
   height: 50px;
 }
 
+/* this css use coupan-input in input  */
 .coupon-inputs input {
   border: 1px solid #ddd;
   border-right: 0;
@@ -720,39 +722,47 @@
   width: 60%;
 }
 
+/* this css use coupan-input button  */
 .coupon-inputs button {
   background-color: #d19c97;
   border: 0;
   width: 40%;
 }
 
+/* this css use cart summary in body  */
 .cart-summary-wraper .cart-summary-body {
   border: 1px solid #ddd;
   margin-top: 50px;
   padding: 20px;
 }
 
+
+/* this css use cart summary item  */
 .cart-summary-wraper .cart-summary-item {
   display: flex;
   justify-content: space-between;
 }
 
+/* this css use cart total payment  */
 .cart-summary-wraper .total-wrapper{
   border: 1px solid #ddd;
   border-top: none;
   padding: 20px;
 }
 
+/* this css use cart total payment head  */
 .cart-summary-wraper .total-head{
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
+/* this css use total head in haading h4  */
 .total-head h4{
   margin: 0;
 }
 
+/* this css use in button  */
 .proceed-input button{
   background-color: #d19c97;
   border: 0;
@@ -762,6 +772,59 @@
   cursor: pointer;
 }
 
+/* this is start login style  */
+.login-area{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-around;
+  }
+  .login-area input{
+    width: 30%;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .login-area button{
+    width: 32%;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #d19c97;
+
+  }
+
+/* this is edn login style  */
+
+/* this start registration style  */
+.registration-area{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 350px;
+  justify-content: space-around;
+}
+
+.registration-area input{
+  width: 30%;
+  height: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.registration-area button{
+  width: 32%;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #d19c97;
+
+}
+/* this end registration style  */
 
 
 /* this line below  start meadia queary use in desktop responsive */
