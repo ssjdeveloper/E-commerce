@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title of website -->
+    <title>E-Commerce Project</title>
+
+    <!-- style.css links -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- commen.css links  -->
+    <link rel="stylesheet" href="commen.css" />
+
+    <!-- online font poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- online icon use  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- thid line below header part in shop.html  -->
+    <div class="wrapper">
+      <!-- header creation divid in 3 part -->
+      <div class="header">
+        <!-- logo creation  first part-->
+        <div class="logo arrange-left wid-25">
+          <h1><span>E</span><span>Commerce</span></h1>
+        </div>
+
+        <!-- Search box creation second part -->
+        <div class="search-product arrange-left wid-50">
+          <!-- this is a input box for searching product  -->
+          <input type="text" placeholder="Search for Products" />
+
+          <!-- this is a Search button with icon  -->
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <!-- selected-product creation third part -->
+        <div class="selected-product arrange-left wid-25">
+          <!-- this button for show cart value with icon -->
+          <button class="common-btn">
+            <span>
+              <i class="fas fa-cart-arrow-down"></i>
+              0</span
+            >
+          </button>
+
+          <!-- this button for show heart like value with icon -->
+          <button class="common-btn">
+            <span>
+              <i class="fas fa-heart"></i>
+              0</span
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- above this line header part is complete -->
+
+    <!-- this line below start Categories list in html  -->
+    <div class="full-banner-wrapper">
+      <div class="shop-header">
+        <h1>Cart shopping Details</h1>
+        <h3>- Cart Details -</h3>
+      </div>
+
+      <!-- this start Cart Details  -->
+      <div class="wrapper next-row">
+        <div class="wid-75 arrange-left">
+          <div class="cart-details">
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- this is first cart details  -->
+                <tr>
+                  <td class="testwith-img">
+                    <img src="cat-1.jpg" alt="" /> <span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+
+                <!-- this is second cart details  -->
+                <tr>
+                  <td class="testwith-img">
+                    <img src="cat-2.jpg" alt="" /> <span>Shoes</span>
+                  </td>
+                  <td><span>$50</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="3" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+
+                <!-- this is third cart details  -->
+                <tr>
+                  <td class="testwith-img">
+                    <img src="cat-3.jpg" alt="" /> <span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$100</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$100</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+
+                <!-- this is forth cart details  -->
+                <tr>
+                  <td class="testwith-img">
+                    <img src="cat-1.jpg" alt="" /> <span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$250</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="2" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$500</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+
+                <!-- this is five cart details  -->
+                <tr>
+                  <td class="testwith-img">
+                    <img src="cat-3.jpg" alt="" /> <span>Colorful T-Shirt</span>
+                  </td>
+                  <td><span>$350</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$350</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="wid-25 arrange-left">
+          <div class="cart-summary-wraper">
+            <div class="coupon-inputs">
+              <input type="text" placeholder="Enter Coupon" />
+              <button>Apply Coupon</button>
+            </div>
+            <div class="cart-summary-body">
+              <div class="cart-summary-item">
+                <h6>Sub Total</h6>
+                <h6>$150</h6>
+              </div>
+              <div class="cart-summary-item">
+                <h6>Shipping</h6>
+                <h6>$10</h6>
+              </div>
+            </div>
+            <div class="total-wrapper">
+              <div class="total-head">
+                <h4>Total</h4>
+                <h4>$160</h4>
+              </div>
+              <div class="proceed-input">
+                <button>Proceed To Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- this line start footer  -->
+      <div class="wrapper next-row">
+        <!-- this is footer  -->
+        <div class="footer">
+          <div class="wid-25 arrange-left margin-right-5">
+            <div class="logo">
+              <h1><span>E</span><span>Commerce</span></h1>
+            </div>
+            <!-- footer description -->
+            <p class="footer-desc">
+              This website to helpfull the buying some Fation Collection. Please
+              visit my website. Always Welcome My Website.
+            </p>
+
+            <!-- footer contect list  -->
+            <ul class="contect-list">
+              <li>
+                <i class="fa fa-map-marker-alt icon"></i>123 Streat, New Delhi,
+                India
+              </li>
+              <li><i class="fa fa-envelope icon"></i>info@example.com</li>
+              <li>
+                <i class="fa fa-phone icon"></i>123 Streat, New Delhi, India
+              </li>
+            </ul>
+          </div>
+
+          <!-- this line start quick link- 1  in footer -->
+          <div class="wid-25 arrange-left quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Home</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Our Shops</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Shop Details</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Checkout</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>About Us</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Cart</samp></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- this line start quick link- 2  in footer -->
+          <div class="wid-25 arrange-left quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Home</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Our Shops</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Shop Details</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Checkout</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>About Us</samp></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><samp>Cart</samp></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- this line start news letter  -->
+          <div class="wid-25 arrange-left">
+            <h3>News Letter</h3>
+            <input type="text" class="footer-input" placeholder="Enter Name" />
+            <input type="text" class="footer-input" placeholder="Enter Email" />
+            <button class="footer-button">Subcribe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- thid line copyright and payment  -->
+      <div class="copy-right">
+        <div>
+          © <b>Code ssjdeveloper</b>. All Right Reserved. Designed by
+          <b>Satendra</b>
+        </div>
+        <img src="payments.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -522,13 +522,13 @@
 
 /* this css use shop header style h1 tag  */
 .shop-header h1 {
-  color: #d19c97;
-  font-weight: 400;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 /* this css style shop header h3 tag  */
 .shop-header h3 {
-  text-transform: uppercase;
+  color: #d19c97;
 }
 
 /* this css use style shorting option */
@@ -566,14 +566,14 @@
 }
 
 /* this css use custom control level    */
-.custom-control-level{
+.custom-control-level {
   position: relative;
   margin-bottom: 0;
   vertical-align: top;
 }
 
 /* this css use custom control before  */
-.custom-control-level::before{
+.custom-control-level::before {
   position: absolute;
   top: 3px;
   left: -25px;
@@ -585,13 +585,13 @@
 }
 
 /* this css use custom control input and level before  */
-.custom-control-input:checked ~ .custom-control-level::before{
+.custom-control-input:checked ~ .custom-control-level::before {
   border-color: #d19c97;
   background-color: #d19c97;
 }
 
 /* this css use custom control after  */
-.custom-control-level::after{
+.custom-control-level::after {
   position: absolute;
   top: 4px;
   left: -24px;
@@ -603,7 +603,7 @@
 }
 
 /* this css use in custom control chek style  */
-.custom-control-check{
+.custom-control-check {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -614,17 +614,152 @@
 }
 
 /* this css use in custom control product count style  */
-.filter-prod-count{
+.filter-prod-count {
   border: 1px solid #ddd;
   padding-left: 5px;
   padding-right: 5px;
   font-size: 13px;
 }
 
-
 /* this css use custom control input and level after  */
-.custom-control-input ~ .custom-control-level::after{
+.custom-control-input ~ .custom-control-level::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* cart detailss style start  */
+.cart-details {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* cart details table  */
+.cart-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* cart details table head  */
+.cart-details table thead {
+  color: #666;
+  background-color: #edf1ff;
+  text-align: center;
+}
+
+/* cart table head in th tag  */
+.cart-details table thead th {
+  padding: 15px;
+}
+
+/* cart details table body  */
+.cart-details table tbody {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* this is table image style  */
+.cart-details img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+/* cart details table tbody in td tagt  */
+.cart-details table tbody td {
+  border: 1px solid #edf1ff;
+  display: table-cell;
+  padding: 15px;
+}
+
+/* this style is cart details in quantity input  */
+.quantity-input {
+  display: flex;
+}
+
+/* this style is table in quantity input button  */
+.quantity-input button {
+  border: 0;
+  background-color: #d19c97;
+  font-size: 24px;
+  width: 30px;
+  border-radius: 0;
+}
+
+/* this style is .quantity-input  */
+.quantity-input input {
+  width: 50px;
+  border: 1px solid #ccc;
+  background-color: #edf1ff;
+  text-align: center;
+}
+
+/* this style is custom delet button  */
+.cart-details .custom-delete-button {
+  padding: 5px;
+  background-color: #d19c97;
+}
+
+/* this style is cart image fix  */
+.cart-details .testwith-img {
+  text-align: left;
+}
+
+/* cart summary stle this line start  */
+.cart-summary-wraper {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.cart-summary-wraper .coupon-inputs {
+  display: flex;
+  height: 50px;
+}
+
+.coupon-inputs input {
+  border: 1px solid #ddd;
+  border-right: 0;
+  padding-left: 20px;
+  width: 60%;
+}
+
+.coupon-inputs button {
+  background-color: #d19c97;
+  border: 0;
+  width: 40%;
+}
+
+.cart-summary-wraper .cart-summary-body {
+  border: 1px solid #ddd;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.cart-summary-wraper .cart-summary-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-summary-wraper .total-wrapper{
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 20px;
+}
+
+.cart-summary-wraper .total-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.total-head h4{
+  margin: 0;
+}
+
+.proceed-input button{
+  background-color: #d19c97;
+  border: 0;
+  padding: 20px;
+  width: 100%;
+  font-size: 16px ;
+  cursor: pointer;
 }
 
 
@@ -675,5 +810,3 @@
     flex-direction: column;
   }
 }
-
-
